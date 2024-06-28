@@ -4,7 +4,7 @@ function uploadFile() {
     var formData = new FormData();
     formData.append('file', file);
 
-    fetch('upload.php', {
+    fetch('upload.html', {
         method: 'POST',
         body: formData
     })
